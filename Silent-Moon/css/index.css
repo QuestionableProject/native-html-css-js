@@ -1,0 +1,112 @@
+main {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 20px 0 20px;
+}
+main p {
+    color:#A1A4B2;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 210px 95px;
+    gap: 20px;
+    padding-left: 0;
+}
+.block {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px; padding-right: 10px;
+}
+.block p, .tree p {
+    font-size: 11px;
+    margin-top: 0;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(50px);
+}
+.btn p {
+    margin: 0;
+}
+.btn button {
+    border-radius: 25px;
+    border: 0;
+    padding: 8px 12px;
+}
+.two button {
+    background: #524F53;
+    color: white;
+}
+.one {
+    background: url(../img/Group.png) #8E97FD;
+    background-repeat: no-repeat;
+    background-position: top right;
+    color: white;
+}
+.one p {
+    color: white;
+}
+.block h4, .tree h4{
+    margin: 0;    
+}
+.two {
+    background: url(../img/apelsin.png) #FFC97E;
+    background-repeat: no-repeat;
+    background-position: top right;
+    color: #524F53;
+}
+.two p {
+    color: #524F53;
+}
+
+.tree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(../img/fon.png) #333242;
+    grid-column: span 2;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+}
+.tree h4 {
+    color: white;
+}
+.tree button {
+    border-radius: 50%;
+    border: 0;
+    padding: 10px 14px;
+    text-align: center;
+}
+.menu-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 20px;
+    overflow: scroll;
+    margin-bottom: 110px;
+}
+.menu-2 p {
+    font-size: 11px;
+}
+.menu-2 h4 {
+    margin-bottom: 0;
+}
+.img-one, .img-tree {
+    width: 100%; height: 113px;
+    background: url(../img/Mask\ Group.png) #AFDBC5;
+    background-position: center;
+    background-size: cover;
+    border-radius:10px ;
+
+}
+.img-two {
+    width: 100%; height: 113px;
+    background: url(../img/Group\ 24.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
