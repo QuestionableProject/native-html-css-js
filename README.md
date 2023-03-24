@@ -1,12 +1,12 @@
 ## Build all projects in native html-css-js
 
-`Mongo` - A simple layout created in college, the site does not stand out in any way, but it is a good remnant of skills. The site was created in accordance with the terms of reference. The design was invented by <a href="https://github.com/Tonight11">Tonight</a> and me. The site was also created using <a href="https://github.com/Tonight11">Tonight</a>.  -> https://helpful-gumdrop-8f72c7.netlify.app
+`Mango` - A simple layout created in college, the site does not stand out in any way, but it is a good remnant of skills. The site was created in accordance with the terms of reference. The design was invented by <a href="https://github.com/Tonight11">Tonight</a> and me. The site was also created using <a href="https://github.com/Tonight11">Tonight</a>.  -> https://helpful-gumdrop-8f72c7.netlify.app
 
 
 `Calculator` - The calculator was created in JS. It was a good test of skills and logic. The calculator is working, but not completely yet. He makes calculations.
 
 
-`fashion` - A college mockup made with <a href="https://github.com/Tonight11">Tonight</a>. The layout was provided from the Internet. -> 
+`Fashion` - A college mockup made with <a href="https://github.com/Tonight11">Tonight</a>. The layout was provided from the Internet. -> 
 https://fashionprofect123.netlify.app/
 
 
