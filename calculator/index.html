@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <main class="Calculator">
+        <div class="header">
+            <h2>CALCULATOR</h2>
+        </div>
+        <div class="input">      
+            <div class="stash"></div>      
+            <input type="text" disabled>
+        </div>
+        <div class="numpad">
+            <div class="numpad__left">
+                <button>MS</button>
+                <button>MR</button>
+                <button>MC</button>
+                <button onClick="Input(1)">1</button>
+                <button onClick="Input(2)">2</button>
+                <button onClick="Input(3)">3</button>
+                <button onClick="Input(4)">4</button>
+                <button onClick="Input(5)">5</button>
+                <button onClick="Input(6)">6</button>
+                <button onClick="Input(7)">7</button>
+                <button onClick="Input(8)">8</button>
+                <button onClick="Input(9)">9</button>
+                <button style="border-bottom-left-radius: var(--border-radius) ;" onClick="Input(0)">0</button>
+                <button onClick="ClearOne()">CLE</button>
+                <button onClick="Clear()">DEL</button>
+            </div>
+            <div class="numpad__right">
+                <button onClick="Input('+')">+</button>
+                <button onClick="Input('-')">-</button>
+                <button onClick="Input('*')">*</button>
+                <button onClick="Input('÷')">÷</button>
+                <button style="border-bottom-right-radius: var(--border-radius) ;" onClick="Computing()">=</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500&display=swap');
+
+:root {
+    --color-calculator: #de9ff5;
+    --border-radius: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+html, body {
+    overflow: hidden;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(239, 220, 220), rgb(204, 190, 246));
+}
+input, button {
+    outline: none;
+    border: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+main{
+    background: var(--color-calculator);
+    border-radius: var(--border-radius);
+    max-width: 500px;
+}
+main input {
+    padding: 0 40px;
+    text-align: right;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    background: white;
+}
+
+main button {
+    background: none;
+    width: 100px;
+    height: 100px;
+    transition: background 1s;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+main button:hover {
+    background: rgba(0, 0, 0, 0.20);
+}
+.numpad {
+    display: flex;
+}
+.numpad__right {
+    display: flex;
+    flex-direction: column;
+}
+.numpad__left {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+.input {
+    position: relative;
+}
+.stash {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    opacity: 0.4;
+}
